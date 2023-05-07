@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build":"rm -rg dist &&babel backend -d dist && cd frontend && npm install &&npm run build",
+    "build":"rm -rg dist &&babel backend -d dist && cd frontend && npm install && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
